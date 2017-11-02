@@ -75,6 +75,8 @@ for assignment in assignments:
     assignment_id = assignment['AssignmentId']
     answer_xml = parseString(assignment['Answer'])
 
+    print(answer_xml.toprettyxml())
+
     # the answer is an xml document. we pull out the value of the first
     # //QuestionFormAnswers/Answer/FreeText
     answer = answer_xml.getElementsByTagName('FreeText')[0]
