@@ -1,0 +1,40 @@
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2017-11-06/QuestionForm.xsd">
+<!--
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+-->
+  <Overview>
+    <Title>The Title</Title>
+    <Text>
+      Overview Text 1
+    </Text>
+    <Text>
+      Overview Text 2
+    </Text>
+  </Overview>
+
+  <Question>
+    <QuestionIdentifier>question001</QuestionIdentifier>
+    <DisplayName>question001 display name</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>
+        question001 text
+      </Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>yes</SelectionIdentifier>
+            <Text>Yes</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>no</SelectionIdentifier>
+            <Text>No</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+</QuestionForm>
